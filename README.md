@@ -60,7 +60,7 @@ Key findings:
 - **The data passes format checks but fails physics checks.** Derived columns do not match their formulas, and no two columns are correlated, so the file behaves like synthetic data generated column by column.
 - **Efficiency can be forecast 10 minutes ahead (R² 0.82), not further.** The forecast relies on the efficiency's own recent history. Adding 40 sensors does not improve it (0.818 vs 0.822).
 - **No sensor drives efficiency in this data.** The most helpful sensor (SO2 for the HP turbine) and the most harmful one (Gross Load) both move R² by about 1 × 10⁻⁴, the size of shuffling noise. This matches the validation result.
-- **The anomaly detector is validated without labels.** With injected spikes, precision is 0.94 or higher from 4 σ upward, and recall rises from 0.11 at 3 σ to 0.98 at 6 σ. The same method can run unchanged on real DCS data.
+- **The anomaly detector is validated without labels.** With injected spikes, precision is 0.94 or higher from 4 σ upward, and recall rises from 0.13 at 3 σ to 0.98 at 6 σ. The same method can run unchanged on real DCS data.
 
 ![Forecast](images/02_prediksi.png)
 ![Sensor impact](images/03_pengaruh_sensor.png)
