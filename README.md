@@ -1,6 +1,6 @@
 # Power Plant Data Validation, Efficiency Forecasting & Sensor Anomaly Detection
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aldo02032004/power-plant-anomaly/blob/main/power_plant_validation_forecast_anomaly.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aldo02032004/power-plant-validation-forecast-anomaly/blob/main/power_plant_validation_forecast_anomaly.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
@@ -78,8 +78,8 @@ Every finding, slide title and the conclusion are generated from the results, so
 
 **Locally:**
 ```bash
-git clone https://github.com/aldo02032004/power-plant-anomaly.git
-cd power-plant-anomaly
+git clone https://github.com/aldo02032004/power-plant-validation-forecast-anomaly.git
+cd power-plant-validation-forecast-anomaly
 pip install -r requirements.txt
 jupyter notebook power_plant_validation_forecast_anomaly.ipynb
 ```
